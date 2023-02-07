@@ -165,13 +165,13 @@ body
     margin: 0 1rem;
 }
 
-.banner button:first-child
+#download_now
 {
     color: #23272a;
     background-color: #ffffff;
 }
 
-.banner button:last-child
+#open_browser
 {
     color: #ffffff;
     background-color: #23272a;
