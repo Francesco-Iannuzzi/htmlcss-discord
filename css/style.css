@@ -6,6 +6,11 @@
    box-sizing: border-box;
 }
 
+body
+{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .container
 {
     width: 70%;
@@ -19,30 +24,33 @@
 
 /* #endregion common */
 
+/* #region up_header */
+
 #app_header
 {
-    background-color: black;
-    height: 5rem;
-    background-color: #add8e6;
+    background-color: #255ee9;
     padding: 1rem 0;
+    position: relative;
 }
 
-/* #region up_header */
+#logo_header
+{
+    vertical-align: middle;
+}
 
 .navigation
 {
-    background-color: #daa520;
     line-height: 3rem;
 }
 
-.logo-header,
+.boxlogo-header,
 .link-header,
 .login-header,
 {
     vertical-align: middle;
 }
 
-.flex > .logo-header,
+.flex > .boxlogo-header,
 .flex > .login-header
 {
     flex-grow: 1;
@@ -53,18 +61,7 @@
     flex-grow: 3;
 }
 
-.logo-header
-{
-    padding-left: 1rem;
-    border: 2px dashed black;
-}
-
-.link-header
-{
-    border: 2px dashed black;
-}
-
-.flex
+.menu.flex
 {
     justify-content: center;
 }
@@ -75,11 +72,25 @@ li
     margin: 0 1rem;
 }
 
+.menu > li
+{
+    color: #ffffff;
+}
+
 .login-header
 {
-    padding-right: 1rem;
     text-align: right;
-    border: 2px dashed black;
+}
+
+#button_login
+{
+    font-size: 0.8rem;
+    color: #23272a;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
 }
 
 /* #endregion up_header */
@@ -89,7 +100,8 @@ li
 .sec_banner
 {
     height: 35rem;
-    background-color: #00008b;
+    background-image: url("../img/jumbo.png");
+    background-size: 100%;
 }
 
 .flex.down_header
@@ -100,12 +112,50 @@ li
 
 .banner
 {
+    color: #ffffff;
     height: 30rem;
     width: 55%;
     margin: auto;
-    background-color: #ee82ee;
-    border: 2px dashed black;
+    /* background-color: #ee82ee; */
+    text-align: center;
 }
+
+
+.banner > h1
+{
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.banner > p
+{
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.banner > button
+{
+    font-size: 1.2rem;  
+    padding: 15px 20px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.banner button:first-child
+{
+    color: #23272a;
+    background-color: #ffffff;
+}
+
+.banner button:last-child
+{
+    color: #ffffff;
+    background-color: #23272a;
+}
+
 /* #endregion sec_banner */
 
 /* #region main */
