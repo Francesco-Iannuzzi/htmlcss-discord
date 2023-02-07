@@ -25,6 +25,28 @@ body
 
 /* #endregion common */
 
+/* region background-wave */
+.first
+{
+    color: #f6f6f6;
+    background-color: #ffffff;
+    margin: -2rem;
+}
+
+.second
+{
+    color: #ffffff;
+    background-color: #f6f6f6;
+}
+
+.third
+{
+    color: #f6f6f6;
+    background-color: #ffffff;
+    margin: -2rem;
+}
+/* #endregion background-wave */
+
 /* #region up_header */
 
 #app_header
@@ -379,23 +401,3 @@ body
 }
 
 /* #endregion footer */
-
-.first
-{
-    color: #f6f6f6;
-    background-color: #ffffff;
-    margin: -2rem;
-}
-
-.second
-{
-    color: #ffffff;
-    background-color: #f6f6f6;
-}
-
-.third
-{
-    color: #f6f6f6;
-    background-color: #ffffff;
-    margin: -2rem;
-}
