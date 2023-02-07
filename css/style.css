@@ -15,6 +15,7 @@ body
 {
     width: 70%;
     margin: auto;
+    max-width: 1140px;
 }
 
 .flex
@@ -102,7 +103,6 @@ li
     height: 35rem;
     background-image: url("../img/jumbo.png");
     background-size: 100%;
-    background-image: cover;
     background-repeat: no-repeat;
 }
 
@@ -190,7 +190,6 @@ li
 {
     width: 70%;
 }
-
 
 .text-box
 {
