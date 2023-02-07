@@ -102,6 +102,8 @@ li
     height: 35rem;
     background-image: url("../img/jumbo.png");
     background-size: 100%;
+    background-image: cover;
+    background-repeat: no-repeat;
 }
 
 .flex.down_header
@@ -116,7 +118,6 @@ li
     height: 30rem;
     width: 55%;
     margin: auto;
-    /* background-color: #ee82ee; */
     text-align: center;
 }
 
@@ -132,6 +133,7 @@ li
     font-size: 1.2rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    line-height: 2rem;
 }
 
 .banner > button
@@ -184,18 +186,29 @@ li
     flex-direction: row-reverse;
 }
 
-.blue-box
+.image-box
 {
-    background-color: #1e90ff;
-    width: 60%;
-    border: 2px dashed black;
+    width: 70%;
 }
 
-.pink-box
+
+.text-box
 {
-    background-color: #ffc0cb;
-    width: 40%;
-    border: 2px dashed black;
+    color: #23272a;
+    width: 30%;
+}
+
+.text-box > h2
+{
+    font-size: 2.8rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.text-box > p
+{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 
 /* #endregion even and odd */
