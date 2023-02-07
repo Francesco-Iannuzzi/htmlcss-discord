@@ -247,10 +247,11 @@ body
 .technology > h3
 {
     font-size: 2rem;
-    margin-top: 2rem;
-    width: 60%;
-    margin: auto;
+    padding: 2rem;
     background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 60%;
 }
 
 .technology > button
@@ -264,6 +265,7 @@ body
     color: #ffffff;
     background-color: #8ea1e1;
 }
+
 /* #endregion last */
 /* #endregion main */
 
@@ -372,3 +374,21 @@ body
 }
 
 /* #endregion footer */
+
+.first
+{
+    color: #f6f6f6;
+    background-color: #ffffff;
+}
+
+.second
+{
+    color: #ffffff;
+    background-color: #f6f6f6;
+}
+
+.third
+{
+    color: #f6f6f6;
+    background-color: #ffffff;
+}
