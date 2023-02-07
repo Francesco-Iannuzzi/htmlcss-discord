@@ -67,16 +67,13 @@ body
     justify-content: center;
 }
 
-li
+.menu > li
 {
     list-style: none;
     margin: 0 1rem;
-}
-
-.menu > li
-{
     color: #ffffff;
 }
+
 
 .login-header
 {
@@ -249,9 +246,9 @@ li
 
 .technology > h3
 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-top: 2rem;
-    width: 50%;
+    width: 60%;
     margin: auto;
     background-image: url("../img/stars.svg");
 }
@@ -274,7 +271,6 @@ li
 
 #app_footer
 {
-    height: 45rem;
     background-color: #23272a;
 }
 
@@ -282,66 +278,97 @@ li
 
 .up_footer
 {
-    height: 85%;
+    padding: 5rem 0 3rem;
 }
 
 .nav_footer
 {
-    height: 35rem;
     padding-top: 1rem;
 }
 
-.salmon-box
-{
-    background-color: #f08080;
-    border: 2px dashed black;
-}
-
-.flex > .salmon-box
+.flex > .social-box
 {
     flex-grow: 2;
 }
 
-.aquamarine-box
-{
-    background-color: #20b2aa;
-    border: 2px dashed white;
-}
-
-.flex > .aquamarine-box
+.flex > .footer-box
 {
     flex-grow: 1;
 }
 
+.social-box
+{
+    color: #ffffff;
+}
+
+.language
+{
+    line-height: 2.5rem;
+}
+
+.social-box > h3
+{
+    font-size: 2rem;
+    color: #7188d9;
+    width: 60%;
+}
+
+.language > img
+{
+    width: 1rem;
+}
+
+.social_icon
+{
+    font-size: 1.25rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+#arrow_window
+{
+    vertical-align: text-bottom;
+}
+
+.footer_item
+{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 2rem;
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.footer_item li:first-child
+{
+    color: #7188d9;
+}
 /* #endregion up_footer */
 
-.down_footer
+.signin-box
 {
-    height: 15%;
-    border-top: 1px solid white;
+    padding: 2rem 0 4rem;
+    border-top: 1px solid #8ea1e1;
 }
 
-.mint-box
-{
-    height: 5rem;
-    background-color: #7fffd4;
-    margin-bottom: 0;
-}
-
-.flex.mint-box
+.flex.signin-box
 {
     justify-content: space-between;
     align-items: center;
 }
 
-#logo_footer,
-#bottone
+/* #logo_footer,*/
+
+#button_signin
 {
-    background-color: #ffb6c1;
-    height: 2rem;
-    line-height: 2rem;
-    padding: 0 1rem;
-    border: 2px dashed black;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #8ea1e1;
+    padding: 10px 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
 }
 
 /* #endregion footer */
